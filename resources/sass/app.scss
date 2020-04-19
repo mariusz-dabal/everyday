@@ -1,5 +1,10 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+// Global styles
+body {
+    font-family: 'Roboto Mono', sans-serif;
+}
 
 // Variables
 @import 'variables';
@@ -9,3 +14,4 @@
 @tailwind components;
 
 @tailwind utilities;
+
