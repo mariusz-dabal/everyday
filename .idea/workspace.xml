@@ -20,27 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5a66887-5dc0-4f43-a0b9-d1bf94fe3800" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HabitsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_04_20_180130_create_habits_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/everyday.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/everyday.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AppController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HabitsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HabitsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/HabitsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/HabitsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/HabitsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +182,9 @@
       <workItem from="1587284311632" duration="10005000" />
       <workItem from="1587296718323" duration="2014000" />
       <workItem from="1587404213972" duration="3683000" />
-      <workItem from="1587407915844" duration="1299000" />
+      <workItem from="1587407915844" duration="1451000" />
+      <workItem from="1587485353206" duration="861000" />
+      <workItem from="1587570057787" duration="5968000" />
     </task>
     <task id="LOCAL-00001" summary="Add auth and vue">
       <created>1587284892070</created>
@@ -255,6 +240,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2092" y="85" width="447" height="903" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1366.0.1920.1080/0.70.1366.768@1366.0.1920.1080" timestamp="1587407433118" />
+    <state x="2104" y="197" width="433" height="671" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1" timestamp="1587578357159">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2104" y="197" width="433" height="671" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method1/1366.0.1920.1080/0.70.1366.768@1366.0.1920.1080" timestamp="1587578357159" />
     <state x="1865" y="27" width="912" height="1004" key="CommitChangelistDialog2" timestamp="1587299422667">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -263,14 +252,18 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2109" y="287" width="424" height="491" key="FileChooserDialogImpl/1366.0.1920.1080/0.70.1366.768@1366.0.1920.1080" timestamp="1587287983598" />
+    <state x="2132" y="466" width="387" height="133" key="ReplaceDuplicatesPrompt" timestamp="1587578361521">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2132" y="466" width="387" height="133" key="ReplaceDuplicatesPrompt/1366.0.1920.1080/0.70.1366.768@1366.0.1920.1080" timestamp="1587578361521" />
     <state x="1815" y="164" width="1022" height="737" key="SettingsEditor" timestamp="1587408004550">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1815" y="164" width="1022" height="737" key="SettingsEditor/1366.0.1920.1080/0.70.1366.768@1366.0.1920.1080" timestamp="1587408004550" />
-    <state x="1921" y="261" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1587299433973">
+    <state x="1921" y="261" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1587409345211">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1921" y="261" width="800" height="543" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.70.1366.768@1366.0.1920.1080" timestamp="1587299433973" />
+    <state x="1921" y="261" width="800" height="543" key="Vcs.Push.Dialog.v2/1366.0.1920.1080/0.70.1366.768@1366.0.1920.1080" timestamp="1587409345211" />
     <state x="1980" y="356" key="com.intellij.ide.util.TipDialog" timestamp="1587214026390">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -287,9 +280,9 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2018" y="254" width="616" height="550" key="find.popup/1366.0.1920.1080/0.70.1366.768@1366.0.1920.1080" timestamp="1587409201963" />
-    <state x="1989" y="247" width="672" height="678" key="search.everywhere.popup" timestamp="1587408859956">
+    <state x="1989" y="247" width="672" height="678" key="search.everywhere.popup" timestamp="1587577462893">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1989" y="247" width="672" height="678" key="search.everywhere.popup/1366.0.1920.1080/0.70.1366.768@1366.0.1920.1080" timestamp="1587408859956" />
+    <state x="1989" y="247" width="672" height="678" key="search.everywhere.popup/1366.0.1920.1080/0.70.1366.768@1366.0.1920.1080" timestamp="1587577462893" />
   </component>
 </project>

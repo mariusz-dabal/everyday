@@ -35,9 +35,7 @@ class HabitsController extends Controller
      */
     public function store(Request $request)
     {
-        Habit::create([
-            'name' => $request->name,
-        ]);
+        Habit::create($this->validateRequest($request));
     }
 
     /**
@@ -52,26 +50,16 @@ class HabitsController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @param \Illuminate\Http\Request $request
+     * @param int $id
+     * @param Habit $habit
+     * @return void
      */
-    public function update(Request $request, $id)
+    public function update(Habit $habit, Request $request)
     {
-        //
+        $habit->update($this->validateRequest($request));
     }
 
     /**
@@ -83,5 +71,16 @@ class HabitsController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    /**
+     * @param Request $request
+     * @return array
+     */
+    public function validateRequest(Request $request): array
+    {
+        return $request->validate([
+            'name' => 'required',
+        ]);
     }
 }
